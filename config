@@ -1,0 +1,24 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  inactive_color_offset = 0.34
+[keybindings]
+  switch_to_tab_10 = <Shift><Alt>parenright
+  split_horiz = <Shift><Alt>Right
+  switch_to_tab_2 = <Shift><Alt>quotedbl
+  switch_to_tab_3 = <Shift><Alt>sterling
+  switch_to_tab_1 = <Shift><Alt>exclam
+  split_vert = <Shift><Alt>Down
+[profiles]
+  [[default]]
+    background_darkness = 0.79
+    background_image = None
+    background_type = transparent
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
